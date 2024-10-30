@@ -3,16 +3,28 @@
     <id>com.github.cazayus.cmdsupport</id>
     <name>CmdSupport</name>
     <vendor>cazayus</vendor>
+    <category>Custom Languages</category>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.cazayus.cmdsupport.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <fileType name="Bat" language="Bat" extensions="bat" fieldName="INSTANCE" implementationClass="com.github.cazayus.cmdsupport.BatFileType"/>
+        <fileType name="Cmd" language="Cmd" extensions="cmd" fieldName="INSTANCE" implementationClass="com.github.cazayus.cmdsupport.CmdFileType"/>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.cazayus.cmdsupport.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <actions>
+        <group id="Cmd.Group" class="com.intellij.openapi.actionSystem.DefaultActionGroup">
+            <action id="Cmd.RunCmdScript" class="com.github.cazayus.cmdsupport.actions.RunCmdScriptAction"
+                    icon="com.github.cazayus.cmdsupport.MyIcons.CmdIcon"/>
+            <action id="Cmd.RunCmdShell" class="com.github.cazayus.cmdsupport.actions.RunCmdShellAction"
+                    icon="com.github.cazayus.cmdsupport.MyIcons.CmdIcon"/>
+            <add-to-group group-id="ProjectViewPopupMenuRunGroup" anchor="first"/>
+        </group>
+        <action id="Cmd.New" class="com.github.cazayus.cmdsupport.actions.NewCmdScriptAction"
+                icon="com.github.cazayus.cmdsupport.MyIcons.CmdIcon">
+            <add-to-group group-id="NewGroup" relative-to-action="NewFile" anchor="after"/>
+        </action>
+    </actions>
 </idea-plugin>
