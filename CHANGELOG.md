@@ -2,6 +2,8 @@
 
 # CmdSupport Changelog
 
-## [0.0.1]
+## [Unreleased]
+
 ### Added
+
 - Initial Version
