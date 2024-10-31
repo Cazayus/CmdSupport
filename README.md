@@ -1,8 +1,8 @@
 # Cmd Support
 
 ![Build](https://github.com/Cazayus/CmdSupport/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/25714.svg)](https://plugins.jetbrains.com/plugin/25714)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/25714.svg)](https://plugins.jetbrains.com/plugin/25714)
 
 <!-- Plugin description -->
 
