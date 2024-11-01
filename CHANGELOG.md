@@ -6,7 +6,7 @@
 
 ### Added
 
-- v0.0.2 Automated deployment
+- Automated deployment
 
 ## [0.0.1] - 2024-10-31
 
