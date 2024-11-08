@@ -83,6 +83,7 @@ intellijPlatform {
 
         ideaVersion {
             sinceBuild = providers.gradleProperty("pluginSinceBuild")
+            untilBuild = providers.provider { null }
         }
     }
 
