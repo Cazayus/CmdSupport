@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [0.0.3] - 2024-11-08
+
 ### Added
 
 - Unlimited **Until Build**
@@ -20,8 +22,7 @@
 
 - Initial Version
 
-[Unreleased]: https://github.com/Cazayus/CmdSupport/compare/v0.0.2...HEAD
-
+[Unreleased]: https://github.com/Cazayus/CmdSupport/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/Cazayus/CmdSupport/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/Cazayus/CmdSupport/compare/v0.0.1...v0.0.2
-
 [0.0.1]: https://github.com/Cazayus/CmdSupport/commits/v0.0.1
