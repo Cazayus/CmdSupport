@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [0.0.4] - 2026-10-13
+
 ### Changed
 
 - Update the project to the latest IntelliJ Platform Plugin Template (Gradle 9.8.0, Kotlin 2.4.20, IntelliJ Platform Gradle Plugin 2.19.0)
@@ -31,7 +33,8 @@
 
 - Initial Version
 
-[Unreleased]: https://github.com/Cazayus/CmdSupport/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/Cazayus/CmdSupport/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/Cazayus/CmdSupport/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/Cazayus/CmdSupport/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/Cazayus/CmdSupport/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/Cazayus/CmdSupport/commits/v0.0.1
