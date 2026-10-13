@@ -4,11 +4,8 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/25714.svg)](https://plugins.jetbrains.com/plugin/25714)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/25714.svg)](https://plugins.jetbrains.com/plugin/25714)
 
-<!-- Plugin description -->
 
 * Adds new actions (create new cmd, run bat/cmd, run shell)
-
-<!-- Plugin description end -->
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].

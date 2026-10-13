@@ -4,6 +4,11 @@
     <name>CmdSupport</name>
     <vendor>cazayus</vendor>
     <category>Custom Languages</category>
+    <description><![CDATA[
+        <ul>
+            <li>Adds new actions (create new cmd, run bat/cmd, run shell)</li>
+        </ul>
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
