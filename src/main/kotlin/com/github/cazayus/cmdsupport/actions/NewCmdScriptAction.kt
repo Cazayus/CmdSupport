@@ -6,7 +6,6 @@ import com.intellij.CommonBundle
 import com.intellij.ide.actions.CreateElementActionBase
 import com.intellij.ide.ui.newItemPopup.NewItemPopupUtil
 import com.intellij.ide.ui.newItemPopup.NewItemSimplePopupPanel
-import com.intellij.lang.LangBundle
 import com.intellij.openapi.application.Experiments
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.InputValidatorEx
@@ -69,7 +68,7 @@ class NewCmdScriptAction : CreateElementActionBase() {
                 val errorMessage = if (validator is InputValidatorEx)
                     (validator as InputValidatorEx).getErrorText(name)
                 else
-                    LangBundle.message("incorrect.name")
+                    MyBundle.message("Cmd.New.incorrectName")
                 contentPanel.setError(errorMessage)
             }
         }
