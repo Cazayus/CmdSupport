@@ -4,6 +4,15 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Update the project to the latest IntelliJ Platform Plugin Template (Gradle 9.8.0, Kotlin 2.4.20, IntelliJ Platform Gradle Plugin 2.19.0)
+- Plugin Verifier now checks against 2 IDEs (2024.2.4 and 2025.3.6.1) instead of 8
+
+### Fixed
+
+- Remove usages of internal `LangBundle` and deprecated `DynamicBundle` constructor APIs
+
 ## [0.0.3] - 2024-11-08
 
 ### Added
